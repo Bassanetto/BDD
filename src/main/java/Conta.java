@@ -45,7 +45,7 @@ public class Conta {
 	
     /**
      * Verifica se o saque foi efetuado e atualiza o saldo da conta.
-     * @param novoSaldo O novo saldo da conta após o saque.
+     * @param novoSaldo O n	ovo saldo da conta após o saque.
      * @throws RuntimeException Se o saldo da conta não for atualizado corretamente após o saque.
      */
     @Then("^deve efetuar o saque e atualizar o saldo da conta para -(\\d+) reais$")
